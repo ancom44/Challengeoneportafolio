@@ -1,0 +1,44 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --color-fondo: #FFFFFF;
+   --cor-de-link: #000;
+   --color-azul: #2A7AE4;
+   --color-error: #df2525;
+   --color-texto:#464646;
+   --color-container: #EAF2FD;
+
+
+   --Raleway: 'Raleway';
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-fondo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    background-color:  #F5F5F5;
+    width : auto;
+    color:#464646;
+    
+}
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+input{
+    background-color: #FFFFFF;
+}

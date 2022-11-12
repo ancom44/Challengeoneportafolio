@@ -1,0 +1,18 @@
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer__rodape{
+   padding: 30px; 
+}
+
+.footer__rodape p{
+    font-family: 'Raleway';
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--color-texto) ;
+    margin: 2px;
+}

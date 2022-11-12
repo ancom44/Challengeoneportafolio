@@ -1,0 +1,43 @@
+
+
+.about__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--color-container) ;
+    padding: 1rem 5rem;
+    color: var(--color-texto) ;
+}
+
+.about__title{
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.about__paragraph{
+    font-family: 'Raleway';
+    
+    line-height: normal;
+    width: 82%;
+}
+
+
+@media (max-width: 768px) {
+    .about__container{
+        padding: 20px 30px;
+    }
+    .about__paragraph{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .about__paragraph{
+        width: 100%;
+    }
+}
+
